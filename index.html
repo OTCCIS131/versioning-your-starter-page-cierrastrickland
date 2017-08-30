@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <!--Name: Cierra Strickland
+          Date: 08/23/2017
+          Assignment: Bootstrap Starter Page
+          Page: Index -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <link rel="icon" href="images/world.png">
+    <title>Cierra's World</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">    
+
+    <style type="text/css">
+        body{padding-top: 70px;
+              background-image: url("images/wood.jpg");
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+            }
+        .world{
+          position: absolute;
+          margin-top: -50px;
+          margin-left:50px;
+          z-index: -1;
+        }
+        header{color: black;
+                margin-bottom: 50px;
+                padding:0.3em;
+              }
+        h1{font-family: 'Pacifico', cursive;
+          background: white;
+          padding: 0.3em;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          width: 75%;
+          margin: auto;
+          text-align: left;
+          word-spacing: 15px;
+          border-radius: 5px;
+          }
+        h2{font-family: 'Pacifico', cursive;
+          text-align: center;
+          background: white;
+          border-radius: 5px;
+          padding:0.3em;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          margin-top: 50px;
+          }
+        h3{font-family: 'Pacifico', cursive;
+           background: white;
+           width: 20%;
+           padding: 0.3em;
+           margin-bottom: 0;
+           border-radius: 3px;
+           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+           }
+        #info{background: white;
+          padding:13px;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          margin-bottom: 50px;
+          border-radius: 5px;
+          }
+        footer{
+          background: white;
+          width: 75%;
+          text-align: center;
+          margin: auto;
+          border-radius: 5px;
+          margin-top:50px;
+          margin-bottom: 20px;
+          padding:0.3em;
+        }
+    </style>
+  </head>
+  <!--start of body-->
+  <body>
+    <img class="world" src="images/world.png" alt="globe">
+    <header>
+      <h1>Cierra's World - A snapshot of my life</h1>
+    </header>
+   <!--start of container-->
+   <div class="container">
+    <h3>A little about myself</h3>
+    <!--start of first row (about me)-->
+    <div class="row">
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img src="images/me.jpg" alt="photo of cierra strickland">
+          <div class="caption">
+            <h4>Hi there!</h4>
+            <p>My name is Cierra Strickland. I was born and raised in Jefferson City. The good ol' capital of Missouri. I am currently enrolled in my second year of college at Ozark Technical Community College pursuing a degree in CIS</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img src="images/luna.jpg" alt="photo of cierra strickland's cat, Luna">
+          <div class="caption">
+            <h4>Luna Bear</h4>
+            <p>Pictured above is my lovable kitten Luna. I adopted her last year and I couldn't imagine how life would be without her. With the stress of school, well with the stress of life in general, Luna has always been there full of love and cuddles.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img src="images/family.jpg" alt="photo of cierra strickland and her family">
+          <div class="caption">
+            <h4>My Anchors</h4>
+            <p>My family is my anchor. As I continue on this journey of mine, I will always know that no matter where or what I do, my family will always be there. From my parents and grandparents to my aunts and uncles, they have all helped getting me to where I am now. With that, I am forever grateful and full of love.</p>
+          </div>
+        </div>
+      </div>
+    </div> <!--end of first row-->
+
+    <!--start of second row (hobbies and programming)-->
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Programming</h2>
+        <div id="info">
+          <p>The 2017 fall semester is the start of my second year of college. In highschool I took two web development classes which started my journey in programming. At this point, I have learned a few programming languages such as python, c#, html and css. I look forward to learning and allowing my programming skills to grow!</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h2>Hobbies</h2>
+        <div id="info">
+          <p>When I'm not at school or working, there are a few things that I like to spend my time doing. This includes reading, going to a park on a nice day and setting up my hammock, traveling, and taking photos. The next set of photos will show the places I have been and the people, places, and things I have photographed.</p>
+        </div>
+        
+      </div>
+    </div><!--end of second row-->
+
+    <h3>Austin, Texas</h3>
+    <!--start of third row (austin texas)-->
+    <div class="row">
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img src="images/austin.jpg" alt="photo of austin, texas postcard">
+          <div class="caption">
+            <h4>Austin, Texas postcard</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img src="images/food.jpg" alt="photo of bbq food">
+          <div class="caption">
+            <h4>Cooper's Old Time Pit Bar-B-Que</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img src="images/graffiti.jpg" alt="photo of artist completing artwork at SXSW">
+          <div class="caption">
+            <h4>Artist completing her art during SXSW Festival</h4>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div> <!--end of third row-->
+    
+    <h3>YL Camp - Colorado</h3>
+    <!--start of fourth row (colorado)-->
+    <div class="row">
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img src="images/horse.jpg" alt="photo of cierra strickland riding a horse">
+          <div class="caption">
+            <h4>Horseback riding</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img src="images/mountain.jpg" alt="photo of campers on top of mountain">
+          <div class="caption">
+            <h4>All of the campers sitting on top of a mountain we spent the day hiking up</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img src="images/paddleBoarding.jpg" alt="photo of cierra strickland paddleboarding">
+          <div class="caption">
+            <h4>Paddleboarding</h4>
+          </div>
+        </div>
+      </div>
+    </div><!--end of fourth row-->
+    
+    <h3>Daytona Beach, FL</h3>
+    <!--start of fifth row (florida)-->
+    <div class="row">
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img src="images/florida.jpeg" alt="photo of beach and pier at daytona beach">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img src="images/florida2.jpeg" alt="photo ice cream truck at daytona beach">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img src="images/florida3.jpg" alt="photo of pier at daytona beach">
+        </div>
+      </div>
+    </div><!--end of fifth row-->
+
+    <h3>Amia</h3>
+    <!--start of sixth row (amia) -->
+    <div class="row">
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img src="images/amia1.jpg" alt="photo of amia">
+          <div class="caption">
+            <h4>Photography practice with my little sister</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img src="images/amia2.jpg" alt="photo of amia">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img src="images/amia3.jpg" alt="photo of amia">
+        </div>
+      </div>
+    </div><!--end of third row-->
+    </div><!--end of container-->
+    <footer>
+      Cierra Strickland &copy; Aug2017
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body><!--end of body-->
+</html>
